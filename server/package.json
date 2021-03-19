@@ -1,20 +1,21 @@
 {
-  "name": "movies_app",
+  "name": "server",
   "version": "1.0.0",
-  "description": "readme file for testing",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yetabalij/movies_app.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yetabalij/movies_app/issues"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.1",
+    "multer": "^1.4.2"
   },
-  "homepage": "https://github.com/yetabalij/movies_app#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
