@@ -1,0 +1,20 @@
+{
+  "name": "movies_app",
+  "version": "1.0.0",
+  "description": "readme file for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetabalij/movies_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yetabalij/movies_app/issues"
+  },
+  "homepage": "https://github.com/yetabalij/movies_app#readme"
+}
