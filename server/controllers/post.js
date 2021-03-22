@@ -1,5 +1,3 @@
-const { post } = require("../routes/routes");
-
 //fetch all post controller
 exports.fetchAllPost = async (req, res) => {
   res.send("fetch all post");
