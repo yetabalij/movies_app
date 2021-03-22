@@ -1,9 +1,8 @@
 const express = require("express");
+const { fetchAllPost } = require("./../controllers/post");
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("Hello Ermias");
-});
+router.get("/", fetchAllPost);
 
 module.exports = router;
