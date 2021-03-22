@@ -4,6 +4,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
+//import rout file
+const post = require("./routes/routes");
+
 const app = express();
 const port = process.env.port || 5000;
 
@@ -27,6 +30,9 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
+
+//route prefix
+app.use("/api/post", post);
 
 //start server
 app.listen(port, () => {
